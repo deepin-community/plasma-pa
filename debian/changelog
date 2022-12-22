@@ -1,0 +1,535 @@
+plasma-pa (4:5.23.3-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.23.3).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 10 Nov 2021 08:41:56 +0900
+
+plasma-pa (4:5.23.2-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Update upstream signing-key.
+
+  [ Norbert Preining ]
+  * New upstream release (5.23.1).
+  * New upstream release (5.23.2).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 03 Nov 2021 22:21:03 +0900
+
+plasma-pa (4:5.23.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.23.0).
+  * Add pipewire-pulse as alternative to pulseaudio (Closes: #994224)
+
+ -- Norbert Preining <norbert@preining.info>  Thu, 14 Oct 2021 20:13:15 +0900
+
+plasma-pa (4:5.21.5-2) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Release to unstable.
+
+ -- Patrick Franz <deltaone@debian.org>  Tue, 17 Aug 2021 03:25:03 +0200
+
+plasma-pa (4:5.21.5-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.21.5).
+
+ -- Patrick Franz <patfra71@gmail.com>  Fri, 07 May 2021 13:55:28 +0200
+
+plasma-pa (4:5.21.4-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.21.4).
+
+ -- Patrick Franz <patfra71@gmail.com>  Tue, 06 Apr 2021 17:48:05 +0200
+
+plasma-pa (4:5.21.3-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.21.3).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 17 Mar 2021 05:49:42 +0900
+
+plasma-pa (4:5.21.2-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.21.2).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 03 Mar 2021 05:33:50 +0900
+
+plasma-pa (4:5.21.1-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.21.1).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 24 Feb 2021 14:36:40 +0900
+
+plasma-pa (4:5.21.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.21.0).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 17 Feb 2021 05:42:27 +0900
+
+plasma-pa (4:5.20.5-1) unstable; urgency=medium
+
+  * New upstream release (5.20.5).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 06 Jan 2021 23:50:53 +0900
+
+plasma-pa (4:5.20.4-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 22 Dec 2020 11:04:38 +0900
+
+plasma-pa (4:5.20.4-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.20.4).
+  * Update build-deps with the info from cmake.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 09 Dec 2020 14:17:33 +0900
+
+plasma-pa (4:5.19.5-3) unstable; urgency=medium
+
+  [ Scarlett Moore ]
+  * Remove obsolete entries from d/upstream/metadata already
+    defined in d/copyright.
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 06 Nov 2020 08:37:24 +0900
+
+plasma-pa (4:5.19.5-2) experimental; urgency=medium
+
+  * Rebuild for Qt 5.15
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 02 Nov 2020 09:27:42 +0900
+
+plasma-pa (4:5.19.5-1) experimental; urgency=medium
+
+  * New upstream release (5.19.5).
+  * Add Patrick and myself to uploaders.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 19 Oct 2020 17:40:08 +0900
+
+plasma-pa (4:5.19.4-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Scarlett Moore ]
+  * Bump compat level to 13.
+  * Add Rules-Requires-Root field to control.
+  * New upstream release (5.18.5).
+  * Update build-deps and deps with the info from cmake.
+    - Add 2 optional, kirigmai2 build dep, sound-theme-freedesktop
+      runtime.
+    - Add dep build dep version and wrap-and-sort.
+  * Update source addresses to point to invent.kde.org.
+    - Update Homepage to invent address, kde.org is too
+      wide of a scope for users to find.
+    - Update copyright file Source: to new invent.kde.org
+      address.
+    - Update upstream metadate to reflect move to invent.kde.org.
+  * Remove LDFLAGS maint compiler flags as they are now default.
+  * Add myself to Uploaders.
+  * Update/Set Upstream-Contact in debian/copyright.
+
+  [ John Scott ]
+  * Recommend deps necessary to use the advanced audio settings.
+
+  [ Patrick Franz ]
+  * Add hardening=+all build flag.
+  * Update matching files in debian/copyright.
+  * Update data in /debian/upstream/metadata.
+  * Extend description in debian/control.
+  * New upstream release (5.19.4).
+  * Update build-deps and deps with the info from cmake.
+  * Change Maintainer in debian/control to Debian Qt/KDE Maintainers.
+  * Remove Maxy from Uploaders as requested.
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 16 Oct 2020 10:09:34 +0900
+
+plasma-pa (4:5.17.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable.
+  * Bump Standards-Version to 4.5.0, no changes required.
+
+ -- Pino Toscano <pino@debian.org>  Fri, 14 Feb 2020 21:23:06 +0100
+
+plasma-pa (4:5.17.5-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.16.5).
+  * Salsa CI automatic initialization by Tuco
+  * Update build-deps and deps with the info from cmake
+  * Add libcanberra-pulse recommends (Closes: 926617)
+
+  [ Pino Toscano ]
+  * New upstream release.
+  * Drop the migration from plasma-pa-dbg, no more needed after two Debian
+    stable releases.
+  * Update the build dependencies according to the upstream build system:
+    - bump KF packages to 5.62.0
+    - remove unused libkf5configwidgets-dev
+    - explicitly add gettext, and pkg-config
+  * Bump the debhelper compatibility to 12:
+    - switch the debhelper build dependency to debhelper-compat 12
+    - remove debian/compat
+  * Bump Standards-Version to 4.4.1, no changes required.
+  * Use the ${perl:Depends} substvar.
+  * Update lintian overrides.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 18 Jan 2020 18:27:08 +0100
+
+plasma-pa (4:5.14.5-1) unstable; urgency=medium
+
+  * New upstream release (5.14.5).
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 24 Jan 2019 09:26:08 -0300
+
+plasma-pa (4:5.14.3-1) unstable; urgency=medium
+
+  * Update upsteam signing-key
+  * New upstream release (5.14.3).
+  * Update build-deps and deps with the info from cmake
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 23 Nov 2018 08:51:06 -0300
+
+plasma-pa (4:5.13.4-1) unstable; urgency=medium
+
+  * New upstream release (5.13.2).
+  * New upstream release (5.13.4).
+  * Drop upstream patch
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Aug 2018 23:18:18 +0200
+
+plasma-pa (4:5.13.1-1) unstable; urgency=medium
+
+  * New upstream release (5.13.1).
+  * Make GConf optional dependency
+  * Build without gconf.
+    Thanks to Martin Steigerwald for following this, and David Rosca for the patch
+    (Closes: 886048)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 26 Jun 2018 13:43:20 +0200
+
+plasma-pa (4:5.12.5-1) unstable; urgency=medium
+
+  * New upstream release (5.12.5).
+  * Bump Standards-Version to 4.1.4.
+  * Use https for the debian/copyright
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 May 2018 13:24:08 +0200
+
+plasma-pa (4:5.12.4-1) unstable; urgency=medium
+
+  * New upstream release (5.12.2).
+  * New upstream release (5.12.4).
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 28 Mar 2018 18:12:52 +0200
+
+plasma-pa (4:5.12.1-1) sid; urgency=medium
+
+  * Use the salsa canonical urls
+  * New upstream release (5.12.1).
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 20 Feb 2018 22:09:03 +0100
+
+plasma-pa (4:5.12.0-2) sid; urgency=medium
+
+  * New revision
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Feb 2018 16:03:51 +0100
+
+plasma-pa (4:5.12.0-1) experimental; urgency=medium
+
+  * Bump debhelper build-dep and compat to 11.
+  * Build without build_stamp
+  * Add link options as-needed
+  * Add Bhushan Shah upstream signing key
+  * New upstream release (5.12.0).
+  * Bump Standards-Version to 4.1.3.
+  * Use https uri for uscan
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 08 Feb 2018 15:21:04 +0100
+
+plasma-pa (4:5.11.4-1) experimental; urgency=medium
+
+  * New upstream release (5.11.4).
+  * Bump Standards-Version to 4.1.2.
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 03 Jan 2018 16:49:15 -0300
+
+plasma-pa (4:5.10.5-2) sid; urgency=medium
+
+  * New revision
+  * Bump Standards-Version to 4.1.0.
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 03 Sep 2017 09:55:43 +0200
+
+plasma-pa (4:5.10.5-1) experimental; urgency=medium
+
+  * New upstream release (5.10.3).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.0.0.
+  * Update upstream metadata
+  * Sync debian/watch with neon
+  * New upstream release (5.10.4).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.10.5).
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Aug 2017 15:28:48 +0200
+
+plasma-pa (4:5.8.7-1) unstable; urgency=medium
+
+  * New upstream release (5.8.7)
+     + KCM: Fix 100% volume label position with RTL
+     + Context: Use DBus service watcher to reconnect to pulseaudio
+        Make sure to reconnect to pulseaudio after it crashes.
+        Fixes KDE#358772
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Jun 2017 14:45:01 +0200
+
+plasma-pa (4:5.8.6-1) unstable; urgency=medium
+
+  * New upstream release (5.8.6)
+  * Add missing dependency pulseaudio-module-gconf
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 16 Mar 2017 15:46:22 +0100
+
+plasma-pa (4:5.8.5-1) experimental; urgency=medium
+
+  * New upstream release (5.8.5).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 30 Dec 2016 18:46:22 +0100
+
+plasma-pa (4:5.8.4-1) unstable; urgency=medium
+
+  * New upstream release (5.8.4)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 18:38:14 +0100
+
+plasma-pa (4:5.8.2-1) unstable; urgency=medium
+
+  * New upstream release (5.8.2)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 15:23:55 +0200
+
+plasma-pa (4:5.8.1-1) unstable; urgency=medium
+
+  * New upstream release (5.8.1)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 16 Oct 2016 22:59:28 +0200
+
+plasma-pa (5.8.0-1) unstable; urgency=medium
+
+  * New upstream release (5.8.0)
+  * Update build-deps and deps with the info from cmake
+  * Add missing build dependency (libgconf2-dev)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Oct 2016 14:05:58 +0200
+
+plasma-pa (4:5.8.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 30 Sep 2016 11:29:54 +0000
+
+plasma-pa (4:5.7.5-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 13 Sep 2016 13:47:29 +0000
+
+plasma-pa (4:5.7.4-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 23 Aug 2016 17:28:56 +0000
+
+plasma-pa (4:5.7.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 02 Aug 2016 12:04:34 +0000
+
+plasma-pa (4:5.7.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 19 Jul 2016 13:48:09 +0000
+
+plasma-pa (4:5.7.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 12 Jul 2016 16:06:56 +0000
+
+plasma-pa (4:5.7.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 04 Jul 2016 15:07:08 +0000
+
+plasma-pa (4:5.6.5-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 14 Jun 2016 14:14:25 +0000
+
+plasma-pa (4:5.6.4-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 May 2016 09:42:12 +0000
+
+plasma-pa (4:5.6.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 19 Apr 2016 16:55:22 +0000
+
+plasma-pa (4:5.6.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 08 Apr 2016 11:44:43 +0000
+
+plasma-pa (5.4.3-1) unstable; urgency=medium
+
+  * New upstream release (5.4.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Dec 2015 11:45:34 +0100
+
+plasma-pa (4:5.4.3-0ubuntu1) xenial; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream bugfix release
+
+  [ Philip Muškovac ]
+  * New upstream bugfix release (LP: #1518598)
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 22 Nov 2015 16:44:11 +0100
+
+plasma-pa (4:5.4.2-0ubuntu3) wily; urgency=medium
+
+  * Add build-dep on kdelibs-bin for kde4-config
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 20 Oct 2015 16:21:57 +0100
+
+plasma-pa (4:5.4.2-0ubuntu2) wily; urgency=medium
+
+  * Add kubuntu_install-kconf-update.diff
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Oct 2015 23:01:33 +0100
+
+plasma-pa (5.4.2-1) unstable; urgency=medium
+
+  * New upstream release (5.4.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 06 Oct 2015 07:51:44 +0200
+
+plasma-pa (4:5.4.2-0ubuntu1) wily; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 02 Oct 2015 16:01:11 +0100
+
+plasma-pa (5.4.1-1) unstable; urgency=medium
+
+  * New upstream release (5.4.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Sep 2015 18:44:51 +0200
+
+plasma-pa (4:5.4.1-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 08 Sep 2015 10:24:06 +0100
+
+plasma-pa (5.7.4-1) unstable; urgency=medium
+
+  * New upstream release (5.7.4)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Aug 2016 15:05:54 +0200
+
+plasma-pa (5.7.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 09 Jul 2016 22:40:13 +0200
+
+plasma-pa (5.6.5-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 21 Jun 2016 11:17:20 +0200
+
+plasma-pa (5.6.4-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.5.5).
+  * Force installing in debian/tmp
+  * Automatic update with ddeb_migration3.py
+  * Add upstream metadata (DEP-12)
+  * Add lintian-overrides for libQPulseAudioPrivate.so
+  * Add a .gitattributes file to use dpkg-mergechangelogs
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Add new lintian-override for the private library
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 02:26:59 +0200
+
+plasma-pa (5.5.4-1) experimental; urgency=medium
+
+  * New upstream release (5.5.0).
+  * New upstream release (5.5.1).
+  * New upstream release (5.5.2).
+  * New upstream release (5.5.3).
+  * New upstream release (5.5.4).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 16:48:42 +0100
+
+plasma-pa (5.4.0-1) unstable; urgency=medium
+
+  * Initial Debian release.
+  * Update copyright file.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 03 Sep 2015 18:46:56 +0200
+
+plasma-pa (4:5.4.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 31 Aug 2015 15:55:52 +0100
+
+plasma-pa (4:5.3.95-0ubuntu1) wily; urgency=low
+
+  [ Debian/Kubuntu KDE Extras Team ]
+  * Initial release
+
+  [ Jonathan Riddell ]
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 23:20:41 +0200

@@ -1,0 +1,200 @@
+# Translation of plasma_applet_org.kde.plasma.volume to Norwegian Nynorsk
+#
+# Karl Ove Hufthammer <karl@huftis.org>, 2015, 2016, 2017, 2018, 2019, 2020, 2021.
+# Øystein Steffensen-Alværvik <ystein@posteo.net>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-21 01:41+0000\n"
+"PO-Revision-Date: 2021-09-19 12:44+0200\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 21.11.70\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: contents/config/config.qml:12
+#, kde-format
+msgid "General"
+msgstr "Generelt"
+
+#: contents/ui/ConfigGeneral.qml:34
+#, kde-format
+msgid "Volume step:"
+msgstr "Lydstyrke-steg:"
+
+#: contents/ui/ConfigGeneral.qml:57
+#, kde-format
+msgid "Play audio feedback for changes to:"
+msgstr "Spel av lydvarsling for endringar i:"
+
+#: contents/ui/ConfigGeneral.qml:59 contents/ui/ConfigGeneral.qml:70
+#, kde-format
+msgid "Audio volume"
+msgstr "Lydstyrke"
+
+#: contents/ui/ConfigGeneral.qml:69
+#, kde-format
+msgid "Show visual feedback for changes to:"
+msgstr "Vis visuell varsling for endringar i:"
+
+#: contents/ui/ConfigGeneral.qml:75
+#, kde-format
+msgid "Microphone sensitivity"
+msgstr "Mikrofonfølsemd"
+
+#: contents/ui/ConfigGeneral.qml:80
+#, kde-format
+msgid "Mute state"
+msgstr "Dempingsstatus"
+
+#: contents/ui/ConfigGeneral.qml:85
+#, kde-format
+msgid "Default output device"
+msgstr "Standard uteining"
+
+#: contents/ui/DeviceListItem.qml:28
+#, kde-format
+msgctxt "label of device items"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: contents/ui/DeviceListItem.qml:37
+#, kde-format
+msgid "Device name not found"
+msgstr "Fann ikkje einingsnamn"
+
+#: contents/ui/ListItemBase.qml:75
+#, kde-format
+msgid "Currently not recording"
+msgstr "Spelar ikkje inn lyd"
+
+#: contents/ui/ListItemBase.qml:76
+#, kde-format
+msgid "Currently not playing"
+msgstr "Spelar ikkje av lyd"
+
+#: contents/ui/ListItemBase.qml:195
+#, kde-format
+msgid "Show additional options for %1"
+msgstr "Vis fleire val for %1"
+
+#: contents/ui/ListItemBase.qml:209
+#, kde-format
+msgid "Mute %1"
+msgstr "Demp %1"
+
+#: contents/ui/ListItemBase.qml:233
+#, kde-format
+msgctxt "Accessibility data on volume slider"
+msgid "Adjust volume for %1"
+msgstr "Juster lydstyrke for %1"
+
+#: contents/ui/ListItemBase.qml:318
+#, kde-format
+msgctxt "volume percentage"
+msgid "%1%"
+msgstr "%1 %"
+
+#: contents/ui/ListItemBase.qml:338
+#, kde-format
+msgctxt "only used for sizing, should be widest possible string"
+msgid "100%"
+msgstr "100 %"
+
+#: contents/ui/main.qml:29
+#, kde-format
+msgid "Audio Volume"
+msgstr "Lydstyrke"
+
+#: contents/ui/main.qml:51
+#, kde-format
+msgid "Audio Muted"
+msgstr "Dempa lyd"
+
+#: contents/ui/main.qml:53
+#, kde-format
+msgid "Volume at %1%"
+msgstr "Lydstyrken er %1 %"
+
+#: contents/ui/main.qml:228
+#, kde-format
+msgid "No output device"
+msgstr "Manglar uteining"
+
+#: contents/ui/main.qml:339
+#, kde-format
+msgid "Increase Volume"
+msgstr "Høgare lyd"
+
+#: contents/ui/main.qml:345
+#, kde-format
+msgid "Decrease Volume"
+msgstr "Lågare lyd"
+
+#: contents/ui/main.qml:351
+#, kde-format
+msgid "Mute"
+msgstr "Demp lyd"
+
+#: contents/ui/main.qml:357
+#, kde-format
+msgid "Increase Microphone Volume"
+msgstr "Høgare mikrofonlyd"
+
+#: contents/ui/main.qml:363
+#, kde-format
+msgid "Decrease Microphone Volume"
+msgstr "Lågare mikrofonlyd"
+
+#: contents/ui/main.qml:369
+#, kde-format
+msgid "Mute Microphone"
+msgstr "Slå av mikrofonen"
+
+#: contents/ui/main.qml:472
+#, kde-format
+msgid "Devices"
+msgstr "Einingar"
+
+#: contents/ui/main.qml:477
+#, kde-format
+msgid "Applications"
+msgstr "Program"
+
+#: contents/ui/main.qml:496 contents/ui/main.qml:498 contents/ui/main.qml:708
+#, kde-format
+msgid "Force mute all playback devices"
+msgstr "Slå av lyden på alle avspelingseiningar"
+
+#: contents/ui/main.qml:655
+#, kde-format
+msgid "No applications playing or recording audio"
+msgstr "Ingen program spelar av eller tek opp lyd"
+
+#: contents/ui/main.qml:657
+#, kde-format
+msgid "No output or input devices found"
+msgstr "Fann ingen lydeiningar"
+
+#: contents/ui/main.qml:688
+#, kde-format
+msgid "Raise maximum volume"
+msgstr "Auk høgste lydstyrke"
+
+#: contents/ui/main.qml:713
+#, kde-format
+msgid "&Configure Audio Devices…"
+msgstr "&Set opp lydeiningar …"
+
+#: contents/ui/StreamListItem.qml:23
+#, kde-format
+msgid "Stream name not found"
+msgstr "Fann ikkje straumnamn"

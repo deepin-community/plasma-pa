@@ -1,0 +1,199 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Safa Alfulaij <safa1996alfulaij@gmail.com>, ٢٠١٦, 2017.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-21 01:41+0000\n"
+"PO-Revision-Date: 2021-06-28 20:36+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 21.07.70\n"
+
+#: contents/config/config.qml:12
+#, kde-format
+msgid "General"
+msgstr "عامّ"
+
+#: contents/ui/ConfigGeneral.qml:34
+#, kde-format
+msgid "Volume step:"
+msgstr "عتبة المستوى:"
+
+#: contents/ui/ConfigGeneral.qml:57
+#, kde-format
+msgid "Play audio feedback for changes to:"
+msgstr "شغّل الملاحظات الصوتية للتغييرات على:"
+
+#: contents/ui/ConfigGeneral.qml:59 contents/ui/ConfigGeneral.qml:70
+#, kde-format
+msgid "Audio volume"
+msgstr "مستوى الصّوت"
+
+#: contents/ui/ConfigGeneral.qml:69
+#, kde-format
+msgid "Show visual feedback for changes to:"
+msgstr "إظهار الملاحظات المرئية للتغييرات على:"
+
+#: contents/ui/ConfigGeneral.qml:75
+#, kde-format
+msgid "Microphone sensitivity"
+msgstr "حساسية الميكروفون"
+
+#: contents/ui/ConfigGeneral.qml:80
+#, kde-format
+msgid "Mute state"
+msgstr "حالة الكتم"
+
+#: contents/ui/ConfigGeneral.qml:85
+#, kde-format
+msgid "Default output device"
+msgstr "جهاز الإخراج المبدئي"
+
+#: contents/ui/DeviceListItem.qml:28
+#, kde-format
+msgctxt "label of device items"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: contents/ui/DeviceListItem.qml:37
+#, kde-format
+msgid "Device name not found"
+msgstr "لم يعثر على اسم الجهاز"
+
+#: contents/ui/ListItemBase.qml:75
+#, kde-format
+msgid "Currently not recording"
+msgstr "لا يسجل حاليا"
+
+#: contents/ui/ListItemBase.qml:76
+#, kde-format
+msgid "Currently not playing"
+msgstr "لا يشغل حاليا"
+
+#: contents/ui/ListItemBase.qml:195
+#, kde-format
+msgid "Show additional options for %1"
+msgstr "أظهر خيارات إضافية لـ%1"
+
+#: contents/ui/ListItemBase.qml:209
+#, kde-format
+msgid "Mute %1"
+msgstr "اكتم %1"
+
+#: contents/ui/ListItemBase.qml:233
+#, kde-format
+msgctxt "Accessibility data on volume slider"
+msgid "Adjust volume for %1"
+msgstr "اضبط المستوى إلى %1"
+
+#: contents/ui/ListItemBase.qml:318
+#, kde-format
+msgctxt "volume percentage"
+msgid "%1%"
+msgstr "%1٪"
+
+#: contents/ui/ListItemBase.qml:338
+#, kde-format
+msgctxt "only used for sizing, should be widest possible string"
+msgid "100%"
+msgstr "100٪"
+
+#: contents/ui/main.qml:29
+#, kde-format
+msgid "Audio Volume"
+msgstr "مستوى الصّوت"
+
+#: contents/ui/main.qml:51
+#, kde-format
+msgid "Audio Muted"
+msgstr "الصوت مكتوم"
+
+#: contents/ui/main.qml:53
+#, kde-format
+msgid "Volume at %1%"
+msgstr "المستوى عند %1%"
+
+#: contents/ui/main.qml:228
+#, kde-format
+msgid "No output device"
+msgstr "لا يوجد جهاز إخراج"
+
+#: contents/ui/main.qml:339
+#, kde-format
+msgid "Increase Volume"
+msgstr "زِد المستوى"
+
+#: contents/ui/main.qml:345
+#, kde-format
+msgid "Decrease Volume"
+msgstr "أنقص المستوى"
+
+#: contents/ui/main.qml:351
+#, kde-format
+msgid "Mute"
+msgstr "اكتم"
+
+#: contents/ui/main.qml:357
+#, kde-format
+msgid "Increase Microphone Volume"
+msgstr "زِد مستوى المكرفون"
+
+#: contents/ui/main.qml:363
+#, kde-format
+msgid "Decrease Microphone Volume"
+msgstr "أنقص مستوى المكرفون"
+
+#: contents/ui/main.qml:369
+#, kde-format
+msgid "Mute Microphone"
+msgstr "اكتم المكرفون"
+
+#: contents/ui/main.qml:472
+#, kde-format
+msgid "Devices"
+msgstr "الأجهزة"
+
+#: contents/ui/main.qml:477
+#, kde-format
+msgid "Applications"
+msgstr "التّطبيقات"
+
+#: contents/ui/main.qml:496 contents/ui/main.qml:498 contents/ui/main.qml:708
+#, kde-format
+msgid "Force mute all playback devices"
+msgstr "افرض كتم صوت جميع أجهزة التشغيل"
+
+#: contents/ui/main.qml:655
+#, kde-format
+msgid "No applications playing or recording audio"
+msgstr "لا توجد تطبيقات تشغل أو تسجل الصوت"
+
+#: contents/ui/main.qml:657
+#, kde-format
+msgid "No output or input devices found"
+msgstr "لم يتم العثور على أجهزة الإخراج أو الإدخال"
+
+#: contents/ui/main.qml:688
+#, kde-format
+msgid "Raise maximum volume"
+msgstr "ارفع لأقصى مستوى"
+
+#: contents/ui/main.qml:713
+#, kde-format
+msgid "&Configure Audio Devices…"
+msgstr "ا&ضبط أجهزة الصوت..."
+
+#: contents/ui/StreamListItem.qml:23
+#, kde-format
+msgid "Stream name not found"
+msgstr "اسم الدفق غير موجود"

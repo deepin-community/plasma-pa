@@ -1,0 +1,339 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Wantoyo <wantoyek@gmail.com>, 2018, 2019, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-21 01:41+0000\n"
+"PO-Revision-Date: 2020-03-05 07:08+0700\n"
+"Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
+"Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 19.12.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Wantoyo"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "wantoyek@gmail.com"
+
+#: context.cpp:588
+#, kde-format
+msgctxt "Name shown in debug pulseaudio tools"
+msgid "Plasma PA"
+msgstr ""
+
+#: kcm/module.cpp:21
+#, kde-format
+msgctxt "@title"
+msgid "Audio"
+msgstr "Audio"
+
+#: kcm/module.cpp:25
+#, kde-format
+msgctxt "@info:credit"
+msgid "Copyright 2015 Harald Sitter"
+msgstr "Hak cipta 20115 Harald Sitter"
+
+#: kcm/module.cpp:27
+#, kde-format
+msgctxt "@info:credit"
+msgid "Harald Sitter"
+msgstr "Harald Sitter"
+
+#: kcm/module.cpp:27
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Penulis"
+
+#: kcm/package/contents/ui/CardListItem.qml:37
+#: kcm/package/contents/ui/DeviceListItem.qml:136
+#, kde-format
+msgctxt "@label"
+msgid "Profile:"
+msgstr "Profil:"
+
+#: kcm/package/contents/ui/DeviceListItem.qml:41
+#, kde-format
+msgctxt "label of device items"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kcm/package/contents/ui/DeviceListItem.qml:54
+#, kde-format
+msgctxt "Perform an audio test of the device"
+msgid "Test"
+msgstr ""
+
+#: kcm/package/contents/ui/DeviceListItem.qml:62
+#, kde-format
+msgctxt "Audio balance (e.g. control left/right volume individually"
+msgid "Balance"
+msgstr ""
+
+#: kcm/package/contents/ui/DeviceListItem.qml:101
+#, kde-format
+msgid "Port:"
+msgstr "Colokan:"
+
+#: kcm/package/contents/ui/DeviceListItem.qml:120 qml/listitemmenu.cpp:382
+#, fuzzy, kde-format
+#| msgctxt "Port is unavailable"
+#| msgid " (unavailable)"
+msgctxt "Port is unavailable"
+msgid "%1 (unavailable)"
+msgstr " (tak tersedia)"
+
+#: kcm/package/contents/ui/DeviceListItem.qml:122 qml/listitemmenu.cpp:384
+#, fuzzy, kde-format
+#| msgctxt "Port is unplugged"
+#| msgid " (unplugged)"
+msgctxt "Port is unplugged"
+msgid "%1 (unplugged)"
+msgstr " (tak tercolok)"
+
+#: kcm/package/contents/ui/DeviceListItem.qml:193
+#, fuzzy, kde-format
+#| msgctxt "volume percentage"
+#| msgid "%1%"
+msgctxt "Placeholder is channel name"
+msgid "%1:"
+msgstr "%1%"
+
+#: kcm/package/contents/ui/main.qml:24
+#, kde-format
+msgid "This module allows configuring the Pulseaudio sound subsystem."
+msgstr "Modul ini membolehkan pengkonfigurasian subsistem suara Pulseaudio."
+
+#: kcm/package/contents/ui/main.qml:86
+#, kde-format
+msgid "Playback Devices"
+msgstr "Perangkat Pemutaran"
+
+#: kcm/package/contents/ui/main.qml:106
+#, kde-format
+msgid "Recording Devices"
+msgstr "Perangkat Perekaman"
+
+#: kcm/package/contents/ui/main.qml:126
+#, kde-format
+msgid "Inactive Cards"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:155
+#, kde-format
+msgid "Playback Streams"
+msgstr "Stream Pemutaran"
+
+#: kcm/package/contents/ui/main.qml:197
+#, kde-format
+msgid "Recording Streams"
+msgstr "Stream Perekaman"
+
+#: kcm/package/contents/ui/main.qml:229
+#, kde-format
+msgid "Show Inactive Devices"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:240
+#, kde-format
+msgid "Configure…"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:244
+#, kde-format
+msgid "Requires %1 PulseAudio module"
+msgstr "Memerlukan modul PulseAudio %1"
+
+#: kcm/package/contents/ui/main.qml:253
+#, kde-format
+msgid ""
+"Add virtual output device for simultaneous output on all local sound cards"
+msgstr ""
+"Tambahkan perangkat output virtual untuk output serentak pada semua sound "
+"card lokal"
+
+#: kcm/package/contents/ui/main.qml:259
+#, kde-format
+msgid ""
+"Automatically switch all running streams when a new output becomes available"
+msgstr ""
+"Alihkan secara otomatis semua stream yang berjalan ketika sebuah output baru "
+"telah tersedia"
+
+#: kcm/package/contents/ui/main.qml:299
+#, kde-format
+msgid "Front Left"
+msgstr "Kiri Depan"
+
+#: kcm/package/contents/ui/main.qml:300
+#, kde-format
+msgid "Front Center"
+msgstr "Tengah Depan"
+
+#: kcm/package/contents/ui/main.qml:301
+#, kde-format
+msgid "Front Right"
+msgstr "Kanan Depan"
+
+#: kcm/package/contents/ui/main.qml:302
+#, kde-format
+msgid "Side Left"
+msgstr "Sisi Kiri"
+
+#: kcm/package/contents/ui/main.qml:303
+#, kde-format
+msgid "Side Right"
+msgstr "Sisi Kanan"
+
+#: kcm/package/contents/ui/main.qml:304
+#, kde-format
+msgid "Rear Left"
+msgstr "Kiri Belakang"
+
+#: kcm/package/contents/ui/main.qml:305
+#, kde-format
+msgid "Subwoofer"
+msgstr "Subwoofer"
+
+#: kcm/package/contents/ui/main.qml:306
+#, kde-format
+msgid "Rear Right"
+msgstr "Kanan Belakang"
+
+#: kcm/package/contents/ui/main.qml:307
+#, kde-format
+msgid "Mono"
+msgstr ""
+
+#: kcm/package/contents/ui/MuteButton.qml:22
+#, kde-format
+msgctxt "Mute audio stream"
+msgid "Mute %1"
+msgstr "Bungkam %1"
+
+#: kcm/package/contents/ui/StreamListItem.qml:45
+#, kde-format
+msgid "Notification Sounds"
+msgstr "Suara Notifikasi"
+
+#: kcm/package/contents/ui/StreamListItem.qml:47
+#, kde-format
+msgctxt "label of stream items"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: kcm/package/contents/ui/VolumeSlider.qml:50
+#, kde-format
+msgid "100%"
+msgstr "100%"
+
+#: kcm/package/contents/ui/VolumeSlider.qml:61
+#, kde-format
+msgctxt "volume percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: kcm/package/contents/ui/VolumeSlider.qml:81
+#, kde-format
+msgctxt "only used for sizing, should be widest possible string"
+msgid "100%"
+msgstr "100%"
+
+#: qml/listitemmenu.cpp:337
+#, kde-format
+msgid "Play all audio via this device"
+msgstr ""
+
+#: qml/listitemmenu.cpp:342
+#, kde-format
+msgid "Record all audio via this device"
+msgstr ""
+
+#: qml/listitemmenu.cpp:370
+#, fuzzy, kde-format
+#| msgid "Port:"
+msgctxt ""
+"Heading for a list of ports of a device (for example built-in laptop "
+"speakers or a plug for headphones)"
+msgid "Ports"
+msgstr "Colokan:"
+
+#: qml/listitemmenu.cpp:440
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Profile:"
+msgctxt ""
+"Heading for a list of device profiles (5.1 surround sound, stereo, speakers "
+"only, ...)"
+msgid "Profiles"
+msgstr "Profil:"
+
+#: qml/listitemmenu.cpp:474
+#, kde-format
+msgctxt ""
+"Heading for a list of possible output devices (speakers, headphones, ...) to "
+"choose"
+msgid "Play audio using"
+msgstr ""
+
+#: qml/listitemmenu.cpp:476
+#, kde-format
+msgctxt ""
+"Heading for a list of possible input devices (built-in microphone, "
+"headset, ...) to choose"
+msgid "Record audio using"
+msgstr ""
+
+#: qml/microphoneindicator.cpp:102
+#, kde-format
+msgid "Mute"
+msgstr "Bungkam"
+
+#: qml/microphoneindicator.cpp:132 qml/microphoneindicator.cpp:134
+#, kde-format
+msgid "Microphone"
+msgstr "Mikrofon"
+
+#: qml/microphoneindicator.cpp:134
+#, fuzzy, kde-format
+#| msgid "Microphone"
+msgid "Microphone Muted"
+msgstr "Mikrofon"
+
+#: qml/microphoneindicator.cpp:284
+#, kde-format
+msgctxt "list separator"
+msgid ", "
+msgstr ", "
+
+#: qml/microphoneindicator.cpp:284
+#, kde-format
+msgctxt "List of apps is using mic"
+msgid "%1 are using the microphone"
+msgstr "%1 telah menggunakan mikrofon"
+
+#: qml/microphoneindicator.cpp:310
+#, fuzzy, kde-format
+#| msgctxt "App is using mic"
+#| msgid "%1 is using the microphone"
+msgctxt "App %1 is using mic with name %2"
+msgid "%1 is using the microphone (%2)"
+msgstr "%1 telah menggunakan mikrofon"
+
+#: qml/microphoneindicator.cpp:317
+#, kde-format
+msgctxt "App is using mic"
+msgid "%1 is using the microphone"
+msgstr "%1 telah menggunakan mikrofon"

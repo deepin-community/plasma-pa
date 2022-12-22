@@ -1,0 +1,51 @@
+Source: plasma-pa
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Scarlett Moore <sgmoore@kde.org>,
+           Patrick Franz <deltaone@debian.org>,
+           Norbert Preining <norbert@preining.info>,
+Build-Depends: cmake (>= 3.16~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.86~),
+               gettext,
+               kirigami2-dev (>= 5.86~),
+               libcanberra-dev,
+               libglib2.0-dev,
+               libkf5coreaddons-dev (>= 5.86~),
+               libkf5declarative-dev (>= 5.86~),
+               libkf5doctools-dev (>= 5.86~),
+               libkf5globalaccel-dev (>= 5.86~),
+               libkf5i18n-dev (>= 5.86~),
+               libkf5notifications-dev (>= 5.86~),
+               libkf5plasma-dev (>= 5.86~),
+               libpulse-dev (>= 5.0.0~),
+               pkg-config,
+               pkg-kde-tools,
+               qtbase5-dev (>= 5.15.0~),
+               qtdeclarative5-dev (>= 5.15.0~),
+Standards-Version: 4.5.0
+Homepage: https://invent.kde.org/plasma/plasma-pa
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/plasma-pa
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/plasma-pa.git
+Rules-Requires-Root: no
+
+Package: plasma-pa
+Architecture: any
+Depends: plasma-framework,
+         pulseaudio | pipewire-pulse,
+         qml-module-org-kde-draganddrop,
+         qml-module-org-kde-kquickcontrolsaddons,
+         qml-module-qtquick-controls,
+         qml-module-qtquick-layouts,
+         qml-module-qtquick2,
+         ${misc:Depends},
+         ${perl:Depends},
+         ${shlibs:Depends},
+Recommends: libcanberra-pulse,
+            pulseaudio-module-gsettings,
+            qml-module-gsettings1.0,
+            sound-theme-freedesktop,
+Description: Plasma 5 Volume controller
+ Plasma applet for audio volume management using
+ PulseAudio.

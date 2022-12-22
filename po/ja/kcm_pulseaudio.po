@@ -1,0 +1,337 @@
+# Tomohiro Hyakutake <tomhioo@outlook.jp>, 2019.
+# Fumiaki Okushi <fumiaki.okushi@gmail.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_pulseaudio\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-21 01:41+0000\n"
+"PO-Revision-Date: 2019-05-11 17:10-0700\n"
+"Last-Translator: Fumiaki Okushi <fumiaki.okushi@gmail.com>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 19.04.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: context.cpp:588
+#, kde-format
+msgctxt "Name shown in debug pulseaudio tools"
+msgid "Plasma PA"
+msgstr ""
+
+#: kcm/module.cpp:21
+#, kde-format
+msgctxt "@title"
+msgid "Audio"
+msgstr ""
+
+#: kcm/module.cpp:25
+#, kde-format
+msgctxt "@info:credit"
+msgid "Copyright 2015 Harald Sitter"
+msgstr ""
+
+#: kcm/module.cpp:27
+#, kde-format
+msgctxt "@info:credit"
+msgid "Harald Sitter"
+msgstr ""
+
+#: kcm/module.cpp:27
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr ""
+
+#: kcm/package/contents/ui/CardListItem.qml:37
+#: kcm/package/contents/ui/DeviceListItem.qml:136
+#, kde-format
+msgctxt "@label"
+msgid "Profile:"
+msgstr "プロファイル:"
+
+#: kcm/package/contents/ui/DeviceListItem.qml:41
+#, kde-format
+msgctxt "label of device items"
+msgid "%1 (%2)"
+msgstr ""
+
+#: kcm/package/contents/ui/DeviceListItem.qml:54
+#, kde-format
+msgctxt "Perform an audio test of the device"
+msgid "Test"
+msgstr ""
+
+#: kcm/package/contents/ui/DeviceListItem.qml:62
+#, kde-format
+msgctxt "Audio balance (e.g. control left/right volume individually"
+msgid "Balance"
+msgstr ""
+
+#: kcm/package/contents/ui/DeviceListItem.qml:101
+#, fuzzy, kde-format
+#| msgid "Port"
+msgid "Port:"
+msgstr "ポート"
+
+#: kcm/package/contents/ui/DeviceListItem.qml:120 qml/listitemmenu.cpp:382
+#, fuzzy, kde-format
+#| msgctxt "Port is unavailable"
+#| msgid " (unavailable)"
+msgctxt "Port is unavailable"
+msgid "%1 (unavailable)"
+msgstr "(利用不可)"
+
+#: kcm/package/contents/ui/DeviceListItem.qml:122 qml/listitemmenu.cpp:384
+#, fuzzy, kde-format
+#| msgctxt "Port is unplugged"
+#| msgid " (unplugged)"
+msgctxt "Port is unplugged"
+msgid "%1 (unplugged)"
+msgstr "(取り外し済み)"
+
+#: kcm/package/contents/ui/DeviceListItem.qml:193
+#, kde-format
+msgctxt "Placeholder is channel name"
+msgid "%1:"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:24
+#, kde-format
+msgid "This module allows configuring the Pulseaudio sound subsystem."
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:86
+#, fuzzy, kde-format
+#| msgid "Playback"
+msgid "Playback Devices"
+msgstr "再生"
+
+#: kcm/package/contents/ui/main.qml:106
+#, kde-format
+msgid "Recording Devices"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:126
+#, kde-format
+msgid "Inactive Cards"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:155
+#, fuzzy, kde-format
+#| msgid "Playback"
+msgid "Playback Streams"
+msgstr "再生"
+
+#: kcm/package/contents/ui/main.qml:197
+#, kde-format
+msgid "Recording Streams"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:229
+#, kde-format
+msgid "Show Inactive Devices"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:240
+#, kde-format
+msgid "Configure…"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:244
+#, kde-format
+msgid "Requires %1 PulseAudio module"
+msgstr "%1 PulseAudio モジュールが必要です"
+
+#: kcm/package/contents/ui/main.qml:253
+#, kde-format
+msgid ""
+"Add virtual output device for simultaneous output on all local sound cards"
+msgstr ""
+
+#: kcm/package/contents/ui/main.qml:259
+#, kde-format
+msgid ""
+"Automatically switch all running streams when a new output becomes available"
+msgstr "新しい出力が利用可能になった時、自動的にすべてのストリームを切り替える"
+
+#: kcm/package/contents/ui/main.qml:299
+#, kde-format
+msgid "Front Left"
+msgstr "正面左"
+
+#: kcm/package/contents/ui/main.qml:300
+#, kde-format
+msgid "Front Center"
+msgstr "正面中央"
+
+#: kcm/package/contents/ui/main.qml:301
+#, kde-format
+msgid "Front Right"
+msgstr "正面右"
+
+#: kcm/package/contents/ui/main.qml:302
+#, kde-format
+msgid "Side Left"
+msgstr "左横"
+
+#: kcm/package/contents/ui/main.qml:303
+#, kde-format
+msgid "Side Right"
+msgstr "右横"
+
+#: kcm/package/contents/ui/main.qml:304
+#, kde-format
+msgid "Rear Left"
+msgstr "背面左"
+
+#: kcm/package/contents/ui/main.qml:305
+#, kde-format
+msgid "Subwoofer"
+msgstr "サブウーファー"
+
+#: kcm/package/contents/ui/main.qml:306
+#, kde-format
+msgid "Rear Right"
+msgstr "背面右"
+
+#: kcm/package/contents/ui/main.qml:307
+#, kde-format
+msgid "Mono"
+msgstr ""
+
+#: kcm/package/contents/ui/MuteButton.qml:22
+#, fuzzy, kde-format
+#| msgid "Mute"
+msgctxt "Mute audio stream"
+msgid "Mute %1"
+msgstr "ミュート"
+
+#: kcm/package/contents/ui/StreamListItem.qml:45
+#, kde-format
+msgid "Notification Sounds"
+msgstr "通知音"
+
+#: kcm/package/contents/ui/StreamListItem.qml:47
+#, kde-format
+msgctxt "label of stream items"
+msgid "%1: %2"
+msgstr ""
+
+#: kcm/package/contents/ui/VolumeSlider.qml:50
+#, kde-format
+msgid "100%"
+msgstr ""
+
+#: kcm/package/contents/ui/VolumeSlider.qml:61
+#, kde-format
+msgctxt "volume percentage"
+msgid "%1%"
+msgstr ""
+
+#: kcm/package/contents/ui/VolumeSlider.qml:81
+#, kde-format
+msgctxt "only used for sizing, should be widest possible string"
+msgid "100%"
+msgstr ""
+
+#: qml/listitemmenu.cpp:337
+#, kde-format
+msgid "Play all audio via this device"
+msgstr ""
+
+#: qml/listitemmenu.cpp:342
+#, kde-format
+msgid "Record all audio via this device"
+msgstr ""
+
+#: qml/listitemmenu.cpp:370
+#, fuzzy, kde-format
+#| msgid "Port"
+msgctxt ""
+"Heading for a list of ports of a device (for example built-in laptop "
+"speakers or a plug for headphones)"
+msgid "Ports"
+msgstr "ポート"
+
+#: qml/listitemmenu.cpp:440
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Profile:"
+msgctxt ""
+"Heading for a list of device profiles (5.1 surround sound, stereo, speakers "
+"only, ...)"
+msgid "Profiles"
+msgstr "プロファイル:"
+
+#: qml/listitemmenu.cpp:474
+#, kde-format
+msgctxt ""
+"Heading for a list of possible output devices (speakers, headphones, ...) to "
+"choose"
+msgid "Play audio using"
+msgstr ""
+
+#: qml/listitemmenu.cpp:476
+#, kde-format
+msgctxt ""
+"Heading for a list of possible input devices (built-in microphone, "
+"headset, ...) to choose"
+msgid "Record audio using"
+msgstr ""
+
+#: qml/microphoneindicator.cpp:102
+#, kde-format
+msgid "Mute"
+msgstr "ミュート"
+
+#: qml/microphoneindicator.cpp:132 qml/microphoneindicator.cpp:134
+#, kde-format
+msgid "Microphone"
+msgstr "マイク"
+
+#: qml/microphoneindicator.cpp:134
+#, fuzzy, kde-format
+#| msgid "Microphone"
+msgid "Microphone Muted"
+msgstr "マイク"
+
+#: qml/microphoneindicator.cpp:284
+#, kde-format
+msgctxt "list separator"
+msgid ", "
+msgstr ""
+
+#: qml/microphoneindicator.cpp:284
+#, kde-format
+msgctxt "List of apps is using mic"
+msgid "%1 are using the microphone"
+msgstr "%1 はマイクを使用しています"
+
+#: qml/microphoneindicator.cpp:310
+#, fuzzy, kde-format
+#| msgctxt "App is using mic"
+#| msgid "%1 is using the microphone"
+msgctxt "App %1 is using mic with name %2"
+msgid "%1 is using the microphone (%2)"
+msgstr "%1 はマイクを使用しています"
+
+#: qml/microphoneindicator.cpp:317
+#, kde-format
+msgctxt "App is using mic"
+msgid "%1 is using the microphone"
+msgstr "%1 はマイクを使用しています"
